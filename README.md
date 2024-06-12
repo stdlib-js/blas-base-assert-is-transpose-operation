@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-assert-is-transpose-operation/tags). For example,
+
+```javascript
 import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@v0.0.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isTransposeOperation( 'conjugate-transpose' );
 <body>
 <script type="module">
 
-import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@v0.0.1-esm/index.mjs';
+import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@esm/index.mjs';
 
 var bool = isTransposeOperation( 'transpose' );
 // returns true
