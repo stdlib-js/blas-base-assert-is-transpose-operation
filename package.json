@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-assert-is-transpose-operation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test if an input value is a BLAS transpose operation.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.1",
-    "@stdlib/blas-base-transpose-operations": "github:stdlib-js/blas-base-transpose-operations#main"
+    "@stdlib/blas-base-transpose-operations": "^0.0.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
