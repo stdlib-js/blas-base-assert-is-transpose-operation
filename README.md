@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@esm/index.mjs';
+import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@v0.1.1-esm/index.mjs';
 ```
 
 #### isTransposeOperation( value )
@@ -93,7 +93,7 @@ bool = isTransposeOperation( 'conjugate-transpose' );
 <body>
 <script type="module">
 
-import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@esm/index.mjs';
+import isTransposeOperation from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-transpose-operation@v0.1.1-esm/index.mjs';
 
 var bool = isTransposeOperation( 'transpose' );
 // returns true
